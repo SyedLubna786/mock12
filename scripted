@@ -1,9 +1,9 @@
 node {
         stage('git checkout') {
-              
+        git 'https://github.com/SyedLubna786/mock12.git'      
         }
        stage('build') {
-              echo 'this is build phase'
+              sh 'mvn clean install'
         } 
     stage('test') {
               echo 'this is test phase'
