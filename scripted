@@ -1,6 +1,6 @@
 node {
         stage('git checkout') {
-        git 'https://github.com/SyedLubna786/mock12.git'      
+git 'https://github.com/SyedLubna786/maven-demo.git'
         }
        stage('build') {
               sh 'mvn clean install'
