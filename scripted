@@ -1,9 +1,6 @@
 node {
-    agent any
-
-    
         stage('git checkout') {
-              echo 'this is checkout phase'
+              
         }
        stage('build') {
               echo 'this is build phase'
